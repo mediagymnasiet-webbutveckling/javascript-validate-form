@@ -22,7 +22,7 @@ const pattern = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-
 
 let isValid = pattern.test(email); 
 
-Läs mer om reguljära uttryck här https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions ller här https://regexr.com/
+Läs mer om reguljära uttryck [här](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) eller här https://regexr.com/
 
 ## Bedömningskriterier
 
@@ -34,7 +34,7 @@ Läs mer om reguljära uttryck här https://developer.mozilla.org/en-US/docs/Web
 ### Högre betyg
 
 * Din validate.js validerar enligt instruktionen med gott resultat
-* Du upplyser användaren om vad som är fel med att ändra i DOM, exempelvis att lägga till/ta bort klasser med CSS eller om du vill få en utmaning i att göra en s.k Modal ![Se exempel här](https://medium.com/@nerdplusdog/a-how-to-guide-for-modal-boxes-with-javascript-html-and-css-6a49d063987e)
+* Du upplyser användaren om vad som är fel med att ändra i DOM, exempelvis att lägga till/ta bort klasser med CSS eller om du vill få en utmaning i att göra en s.k Modal [Se exempel här](https://medium.com/@nerdplusdog/a-how-to-guide-for-modal-boxes-with-javascript-html-and-css-6a49d063987e)
 * Din kod har en bra tydlig och bra struktur som är lätt att följa och förstå
 
 Lycka till!
