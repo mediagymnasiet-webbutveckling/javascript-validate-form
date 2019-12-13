@@ -18,8 +18,11 @@ Det du behöver veta är att funktionen validateForm() i validate.js är den som
 
 En e-postadress valideras mest effektivt med hjälp av reguljära uttryck (regular expressions). Då reguljära uttryck är ganska komplicerade för nybörjare får ni här den kod som behöver för att kontrollera detta. I exemplet nedan innehåller variabeln email själva e-postadressen och variabeln isValid är en boolsk variabel som får värdet true om e-postadressen är korrekt och false om den inte är korrekt: 
 
-const pattern = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/; 
+const pattern = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+
 let isValid = pattern.test(email); 
+
+Läs mer om reguljära uttryck här https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions ller här https://regexr.com/
 
 ## Bedömningskriterier
 
@@ -31,7 +34,7 @@ let isValid = pattern.test(email);
 ### Högre betyg
 
 * Din validate.js validerar enligt instruktionen med gott resultat
-* Du upplyser användaren om vad som är fel med att ändra i DOM, ex med style eller ändrad text.
+* Du upplyser användaren om vad som är fel med att ändra i DOM, exempelvis att lägga till/ta bort klasser med CSS eller om du vill få en utmaning i att göra en s.k Modal ![Se exempel här](https://medium.com/@nerdplusdog/a-how-to-guide-for-modal-boxes-with-javascript-html-and-css-6a49d063987e)
 * Din kod har en bra tydlig och bra struktur som är lätt att följa och förstå
 
 Lycka till!
