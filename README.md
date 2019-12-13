@@ -22,7 +22,7 @@ const pattern = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-
 
 let isValid = pattern.test(email); 
 
-Läs mer om reguljära uttryck [här](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) eller här https://regexr.com/
+Om du är intresserad, läs mer om reguljära uttryck [här](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) eller här https://regexr.com/
 
 ## Bedömningskriterier
 
