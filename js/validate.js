@@ -1,22 +1,23 @@
-
 /* HÄR SKRIVER DU DIN KOD SOM SKA VALIDERA FORMULÄRET
- * 
- * Scriptet fungerar enliget nuvarande startkod:
- * Om funktionen validateForm() returnar true skickas användaren till dummy.html.
- * Om funktionen returnerar false stannar användaren kvar på index.html 
- * 
- * Obs! För att lösa uppgiften behövs du endast behöva skriva js-kod i denna fil. 
- * 
- * Du är fri att skriva fler funktioner i denna fil. Du bestämmer själv hur du strukturer de funktioner och de variabler du behöver.
- * 
+ * Utgå från funktionen validateForm().  Du är fri att skriva fler funktioner efter behov. 
+ *  
+ * Ändra inget i index.html (Förutom om du vill lägga till funkionalitet för modal)
  */
 
-
-function validateForm() {
-
+ // Hämtar dom-variabeln för formuläret
+ const form = document.querySelector('form');
+ 
+ //Denna funktion körs när 'Skicka'-knappen klickas
+ function validateForm(event) {
     
-return false;
-}
+         // Denna funktion hindrar att man skickas till dummy.html. 
+         // D.v.s använd denna för att ge feedback till användaren om vaidering misslyckas
+         event.preventDefault();
 
+ }
+ 
 
+ // Lyssnar på submit-event för formuläret. Om knappen 'Skicka' klickas körs funktionen validateForm()
+ form.addEventListener('submit', validateForm);
 
+ 
