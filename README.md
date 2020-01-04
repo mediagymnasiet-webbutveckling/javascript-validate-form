@@ -41,3 +41,6 @@ Lycka till!
 /Sandra
 
  
+![Exempel på feedback](https://github.com/mediagymnasiet-webbutveckling/javascript-validate-form/blob/master/screen1.png)
+
+![Exempel på feedback med modal](https://github.com/mediagymnasiet-webbutveckling/javascript-validate-form/blob/master/screen2.png)
