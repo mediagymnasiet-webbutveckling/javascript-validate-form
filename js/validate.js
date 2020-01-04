@@ -7,7 +7,7 @@
  // Hämtar dom-variabeln för formuläret
  const form = document.querySelector('form');
  
- //Denna funktion körs när 'Skicka'-knappen klickas
+ //Denna funktion körs när 'SSkicka anmälan'-knappen klickas
  function validateForm(event) {
     
          // Denna funktion hindrar att man skickas till dummy.html. 
@@ -17,7 +17,7 @@
  }
  
 
- // Lyssnar på submit-event för formuläret. Om knappen 'Skicka' klickas körs funktionen validateForm()
+ // Lyssnar på submit-event för formuläret. Om knappen 'Skicka anmälan' klickas körs funktionen validateForm()
  form.addEventListener('submit', validateForm);
 
  
