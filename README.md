@@ -18,7 +18,7 @@ Det du behöver veta är att funktionen validateForm() i validate.js är den som
 
 En e-postadress valideras mest effektivt med hjälp av reguljära uttryck (regular expressions). Då reguljära uttryck är ganska komplicerade för nybörjare får ni här den kod som behöver för att kontrollera detta. I exemplet nedan innehåller variabeln email själva värdet av e-postadressen och variabeln isValid är en boolsk variabel som får värdet true om e-postadressen är korrekt och false om den inte är korrekt: 
 
-const pattern = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+const regex = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
 let isValid = email.match(regex);
 
