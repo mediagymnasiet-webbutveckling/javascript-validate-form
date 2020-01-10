@@ -20,8 +20,8 @@ En e-postadress valideras mest effektivt med hjälp av reguljära uttryck (regul
 
 const regex = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
-let isValid = email.match(regex);
-
+let isValid = regex.test(email); //Där variabeln email är värdet på strängen som tas in
+ 
 Om du är intresserad, läs mer om reguljära uttryck [här](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) eller här https://regexr.com/
 
 ## Bedömningskriterier
